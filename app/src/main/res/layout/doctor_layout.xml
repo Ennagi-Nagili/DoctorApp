@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="16dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/image"
+        android:src="@drawable/doctor1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="24dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:text="dr. Gilang Segara Bening"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/image"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="3dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/special"
+        android:text="Heart"
+        app:layout_constraintTop_toBottomOf="@id/name"
+        app:layout_constraintLeft_toRightOf="@id/image"
+        android:textSize="14sp"
+        android:textColor="@color/light_grey"
+        android:layout_marginStart="16dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/point"
+        android:src="@drawable/point"
+        app:layout_constraintTop_toBottomOf="@id/name"
+        app:layout_constraintLeft_toRightOf="@id/special"
+        android:layout_marginTop="9dp"
+        android:layout_marginStart="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hospital"
+        android:text="Persahabatan Hospital"
+        app:layout_constraintTop_toBottomOf="@id/name"
+        app:layout_constraintLeft_toRightOf="@id/point"
+        android:textSize="14sp"
+        android:textColor="@color/light_grey"
+        android:layout_marginStart="8dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/stars"
+        android:src="@drawable/stars"
+        app:layout_constraintTop_toBottomOf="@id/special"
+        app:layout_constraintLeft_toRightOf="@id/image"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rate"
+        app:layout_constraintTop_toBottomOf="@id/special"
+        app:layout_constraintLeft_toRightOf="@id/stars"
+        android:text="(1221)"
+        android:textColor="@color/light_grey"
+        android:textSize="11sp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/open_back"
+        android:src="@drawable/open_back"
+        app:layout_constraintTop_toBottomOf="@id/special"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/open"
+        app:layout_constraintTop_toBottomOf="@id/special"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginEnd="37dp"
+        android:layout_marginTop="11dp"
+        android:text="Open"
+        android:textColor="@color/green"
+        android:textSize="12sp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

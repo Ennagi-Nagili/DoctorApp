@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">DoctorApp</string>
+    <string name="find">Find</string>
+    <string name="your_doctor">your doctor</string>
+    <string name="search">Search doctor, medicines etc</string>
+    <string name="consultation">Consultation</string>
+    <string name="dental">Dental</string>
+    <string name="heart">Heart</string>
+    <string name="hospitals">Hospitals</string>
+    <string name="physician">Physician</string>
+    <string name="skin">Skin</string>
+    <string name="surgeon">Surgeon</string>
+    <string name="top_doctors">Top Doctors</string>
+    <string name="view_all">View all</string>
+</resources>
